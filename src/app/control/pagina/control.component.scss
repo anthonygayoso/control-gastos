@@ -1,0 +1,49 @@
+.control{
+    width: 209vh;  
+}
+
+.contenedor{
+    width: 207vh;  
+}
+.contenedor4{
+    .mat-icon{
+        color: rgb(255, 102, 0);
+        
+    }
+    color: rgb(27, 36, 54); 
+    background-image: linear-gradient(to right, rgba(187, 82, 82, 0), rgb(128, 117, 143));
+}
+.contenedor5{
+    .mat-icon{
+        color: rgb(245, 242, 59);
+        
+    } 
+}
+.contenedor6{
+    &__boton{
+        width: 100%;
+        
+    } 
+}
+
+.container{
+    position: relative;
+    display: inline-block;
+
+    &__imagen{
+        height: 100vh;
+        width: 209vh;
+        
+    }
+    &__texto{
+        position: absolute;
+        left: 10%;
+        top: 300px;
+        color: white;
+    
+    }
+    &__titulo{
+        font-size: 55px;  
+    }
+    
+}
